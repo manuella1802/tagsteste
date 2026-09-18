@@ -1,27 +1,141 @@
-/* header{
-    text-align: center;
-    background-color: rgb(167, 232, 243);
-    border-radius: 20px;
-    box-shadow: 10px 10px 5px rgba(206, 204, 204, 0.5);
-    font-size: 35px;
-} */
+/* Configurações Gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-.container{
-    height: 100%;
-    width: 100%;
+main{
+    max-width: 900px;
+    margin: 20px;
+    padding: 20px;
+}
+
+section{
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+p{
+    color: #2c4c76;
+}
+
+h2{
+    color:#1a365d;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 header{
-    font-family:monospace;
+    background-color: #bee3f8;
+    color: #1a365d;
     text-align: center;
-    color:rgb(51, 105, 60);
-    background-color: black;
+    padding: 30px 20px;
 }
 
-h1{
-    font-size: 35px;
+header h1{
+    font-size: 47px;
+    margin-bottom: 5px;
 }
 
 nav{
-    word-spacing: 10px;
+    background-color: #2b6cb0;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration:underline;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+#caixas{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.box{
+    background-color: #e8ecef;
+    border: 1px solid #cbcccd;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.box h3{
+    color: #2b6cb0;
+    margin-bottom: 8px;
+}
+
+button{
+    background-color: #4299e1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: #3182ce;
+}
+
+ul{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+form{
+    max-width: 500px;
+}
+
+label{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #28528d;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+form button{
+    margin-top: 10px;
+    width: 100%;
+}
+
+table{
+    width: 100%;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+
+th, td{
+    padding: 17px;
+    text-align: left;
+}
+
+th{
+    background-color: #ebf8ff;
+    color: #2b6cb0;
+    border-radius: 5px;
 }
