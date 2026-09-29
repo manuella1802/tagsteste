@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>DOM - Document Object Model</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header>
@@ -18,7 +19,7 @@
             <a href="#">Contato</a>
         </nav>
 
-    <maim>
+    <main>
         <section id="primeira">
         <h2>Manipulação do DOM</h2>
         <p>Este é um parágrafo que será utilizado nos exercícios.</p>
@@ -115,5 +116,124 @@
             </table>
         </section>
     </main>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Document Object Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fundação de Ensino de Contagem</h1>
+        <p>Curso de Frontend</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Cursos</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <main>
+        <section id="primeira">
+            <h2>Manipulação do DOM</h2>
+        </section>
+
+        <section id="caixas">
+            <div class="box">
+                <h3>Caixa 1</h3>
+                <p>Conteúdo da 1º caixa.</p>
+            </div>
+
+            <div class="box">
+                <h3>Caixa 2</h3>
+                <p>Conteúdo da 2º caixa.</p>
+            </div>
+
+            <div class="box">
+                <h3>Caixa 3</h3>
+                <p>Conteúdo da 3º caixa.</p>
+            </div>
+        </section>
+
+        <section id="botoes">
+            <button>Botão Primário</button>
+            <button>Botão Secundário</button>
+        </section>
+
+        <section id="lista">
+            <h2>Lista de tecnologias</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>Rust</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Imagem</h2>
+        </section>
+
+        <section>
+            <h2>Formulário</h2>
+
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" placeholder="Digite seu nome"><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" placeholder="Digite seu e-mail"><br>
+
+                <label for="curso">Curso:</label><br>
+                <select id="curso">
+                    <option value="">Selecione</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JavaScript">JavaScript</option>
+                </select>
+
+                <label for="comentario">Comentário:</label><br>
+                <textarea id="comentario" placeholder="Deixe sua mensagem aqui"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Tabela de alunos</h2>
+
+            <table border="1">
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Curso</th>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>20</td>
+                    <td>HTML</td>
+                </tr>
+                <tr>
+                    <td>Bruno</td>
+                    <td>22</td>
+                    <td>JavaScript</td>
+                </tr>
+                <tr>
+                    <td>Carla</td>
+                    <td>19</td>
+                    <td>CSS</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
